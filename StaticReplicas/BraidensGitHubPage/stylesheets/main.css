@@ -1,0 +1,237 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%
+}
+
+#navbar {
+    background-color: #212529;
+    height: 62px;
+}
+#navbar ul {
+    display: block;
+    list-style-type: none;
+    margin-top: -30px;
+    margin-left: 80px;
+}
+#navbar ul li {
+    display: inline-block;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#navbar ul li input {
+    width: 272px;
+    height: 28px;
+    border: 0.2px solid grey;
+    margin-left: 10px;
+    border-radius: 4px;
+    margin-top: -5px;
+    background: url("https://github.githubassets.com/images/search-key-slash.svg");
+    background-position: right;
+    background-position-x: 230px;
+    background-repeat: no-repeat;
+}
+#navbar ul li input::placeholder {
+    color: rgb(197, 197, 197);
+}
+
+.links {
+    margin-left: 10px;
+}
+
+#git-logo {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+#bell {
+    fill: white;
+    margin-left: 1100px;
+}
+#plus {
+    fill: white;
+    margin-left: 7px;
+}
+#braiden {
+    border-radius: 50%;
+    margin-left: 7px;
+}
+
+
+section {
+    background-color: #eee;
+    width: 349px;
+    height: 893px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+section aside h1 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#right-side {
+    width: 1553px;
+    height: 859px;
+    background-color: #eee;
+    float: right;
+    margin-top: -893px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#right-side h4 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#right-side #all-activity {
+    font-weight: lighter;
+}
+
+.large-text {
+    font-size: 160%;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#repo-btn {
+    display: block;
+    margin-left: 200px;
+    margin-top: -20px;
+    width: 69px;
+    height: 28px;
+    color: white;
+    background-color: #2b984b;
+    border: 0.5px solid #2b984b;
+    border-radius: 4px;
+    font-size: 80%;
+}
+
+#new {
+    vertical-align: top;;
+}
+
+#find-repo {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 268px;
+    height: 32px;
+}
+
+.repo-link {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.jumbotron {
+    background-color: white;
+    width: 976px;
+    height: 178px;
+    margin-left: 50px;
+    border: 0.2px solid white;
+    border-radius: 10px;
+}
+#right-side small {
+    margin-left: 50px;
+}
+
+#show-more {
+    font-size: 80%;
+    margin-left: 30px;
+    line-height: 3.0;
+}
+
+.indent {
+    margin-left: 30px;
+}
+
+#organization-btn {
+    width: 146px;
+    height: 28px;
+    font-size: 80%;
+    color: #0165d6;
+}
+
+a {
+    text-decoration: none;
+}
+
+#news-feed {
+    font-weight: 200;
+    margin-left: 30px;
+}
+
+#explore {
+    width: 127px;
+    height: 32px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #0165d6;
+}
+
+#copyright-text {
+    display: inline-block;
+    font-size: 70%;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+#list-container {
+    margin-top: -30px;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+#listOne {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 500px;
+    width: 100px;
+}
+#listOne li {
+    margin-bottom: 4px;
+}
+
+#listTwo {
+    display: inline-block;
+    list-style-type: none;
+    width: 100px;
+    margin-left: 30px;
+    vertical-align: top;
+}
+#listTwo li {
+    margin-bottom: 4px;
+}
+
+#listThree {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 10px;
+    vertical-align: top;
+}
+#listThree li {
+    margin-bottom: 4px;
+}
+
+.small-text {
+    font-size: 80%;
+    width: 268px;
+    height: 36px;
+}
+
+#recent-activity {
+    margin-top: -20px;
+    vertical-align: top;
+}
+
+.light-gray {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+#git-copy {
+    fill: rgba(0, 0, 0, 0.2);
+}
+
+.color-link {
+    color: #0165d6;
+}
