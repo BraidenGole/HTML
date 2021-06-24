@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+}
+
+body {
+    background-image: url("https://www.wallpaperflare.com/static/467/188/896/low-poly-abstract-minimalism-red-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header ul li h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-left: 7px;
+    font-size: 300%;
+}
+header ul li img {
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+.row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.column {
+    display: inline-block;
+    border: 2px solid white;
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 5px;
+    background-color: transparent;
+}
+
+.column h1 {
+    text-align: left;
+    color: white;
+    font-size: 150%;
+}
+
+.column header {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 170%;
+}
+
+.column ul {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 110%;
+}
+
+.column p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 140%;
+    width: 400px;
+}
+
+.column #alienware {
+    border-radius: 10px;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+a {
+    color: rgb(0, 206, 206);
+}
+
+.paragraph {
+    background-color: white;
+}
+
+#paragraph-one {
+    color: black;
+}
+
+#plus-more {
+    margin-top: 5px;
+    margin-left: 350px;
+    font-size: 120%;
+}
+
+#background-middle {
+    background-image: url("https://www.xmple.com/wallpaper/stripes-streaks-black-white-lines-2880x1800-c2-000000-f8f8ff-l2-217-217-a-300-f-1.svg");
+    background-size: contain;
+    border-top-left-radius: 30px;
+}
