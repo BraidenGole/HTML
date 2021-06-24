@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- 
+    File            :   images.html
+    Project         :   PROG1245 - Major Assignment 2
+    Programmer      :   Braiden Gole
+    First version   :   2020-12-05
+    Description     :   This is our images page.
+
+    STUDENT NUMBER: 8656520
+    Date of Submission: 2020-12-09
+-->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>BikesToGo | Images</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/images.css">
+
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+            <img src="images/blueBike.png" alt="blue bike">
+            </a>
+            <h1>BikesToGo</h1>
+            <div>
+                <h4>Gallery</h4>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="curr">
+                    <a href="#">Images</a>
+                    <ul id="nestedNavImg">
+                        <li><a href="#">Mountain</a></li>
+                        <li><a href="#">Downhill</a></li>
+                        <li><a href="#">Road</a></li>
+                        <li><a href="#">Dirt / Street</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Media</a></li>
+                <li>
+                    <a href="#">Feedback</a>
+                    <!-- 3-Tier Navigation -->
+                    <ul id="nestedNav">
+                        <li><a href="#">Specialized</a></li>
+                        <li><a href="#">Divinci</a></li>
+                        <li><a href="#">Kona</a></li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    Norco<img id="threeTier" src="images/Arrow.jpg" width="20" height="20" alt="arrow">
+                                </figure>   
+                            </a>
+                            <ul hidden>
+                                <li><a href="#">Aurum C1</a></li>
+                                <li><a href="#">Aurum C2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <!-- Left section -->
+            <section id="leftSection">
+                <aside>
+                    <div class="shiftThumbnails">
+                        <figure>
+                        <a href="index.html"><img class="imgLink" src="images/Home.png" alt="Home"></a>
+                        <figcaption>Home</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="images.html"><img class="imgLink" src="images/ImagesLink.png" alt="Images"></a>
+                            <figcaption>Images</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="media.html"><img class="imgLink" src="images/Video.jpg" alt="Media"></a>
+                            <figcaption>Media</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="feedback.html"><img class="imgLink" src="images/Feedback.jpg" alt="Feedback"></a>
+                            <figcaption>Feedback</figcaption>
+                        </figure>
+                    </div>
+                </aside>
+            </section>
+            <!-- End left section -->
+
+            <!-- Right section -->
+            <section id="rightSection">
+                <aside>
+                    <h1>Bmx Parts</h1><br>
+                    <hr>
+                    <p id="rightPara">
+                        The photo&#39;s displayed are parts for a bmx bicycle when you
+                        hover over the first image a set of bmx handle bars will appear.
+                        This is appropriate because when buying a stem for a bmx bike a common
+                        purchase is a handle bar to go with the new stem. The second pictured
+                        when hovered will display a set of grips this is another common purchase when
+                        buying an accessory for a bmx bicycle. Finally the last photo is an &quot;Oil slick&dblac;
+                        stem when hovered you can purchase the same color hardware to go with it.
+                    </p>
+                </aside>
+            </section>
+            <!-- End right section -->
+
+            <!-- Middle section -->
+            <section id="middleSection">
+                <aside>
+                    <article>
+                        <div id="row">
+                            <figure>
+                                <div id="column1"></div>
+                                <figcaption>Black stem</figcaption>
+                            </figure>
+                            <figure>
+                                <div id="column2"></div>
+                                <figcaption>Green Stem</figcaption>
+                            </figure>
+                            <figure>
+                                <div id="column3"></div>
+                                <figcaption>Oil slick stem</figcaption>
+                            </figure>
+                        </div>
+                        <br>
+                        <div id="row2">
+                            <figure>
+                                <div id="column4"></div>
+                                <figcaption>Peach Frame</figcaption>
+                            </figure>
+                            <figure>
+                                <div id="column5"></div>
+                                <figcaption>Chrome Frame</figcaption>
+                            </figure>
+                            <figure>
+                                <div id="column6"></div>
+                                <figcaption>Gold Frame</figcaption>
+                            </figure>
+                        </div>
+                        <br>
+                        <div id="row3">
+                            <figure>
+                                <div id="column7"></div>
+                                <figcaption>GSport wheelset</figcaption>
+                            </figure>
+                            <figure>
+                                <div id="column8"></div>
+                                <figcaption>Stranger wheel</figcaption>
+                            </figure>
+                            <figure>
+                                <div id="column9"></div>
+                                <figcaption>Gsport Freecoaster</figcaption>
+                            </figure>
+                        </div>
+                    </article>
+                </aside>
+            </section>
+            <!-- End middle section -->
+
+            <!-- Main footer section -->
+            <section id="mainFooterSection">
+                <aside>
+                    <p>WE PROVIDE EXCELLENCE THROUGH OUR MAINTENANCE AND DISTRIBUTION OF BICYCLES.</p>
+                </aside>
+            </section>
+            <!-- End main footer -->
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020 - Braiden Gole</p>
+        </footer>
+    </body>
+</html>
+

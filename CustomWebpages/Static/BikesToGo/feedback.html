@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- 
+    File            :   feedback.html
+    Project         :   PROG1245 - Major Assignment #2
+    Programmer      :   Braiden Gole
+    First version   :   2020-12-05
+    Description     :   This is our feedback page.
+
+    STUDENT NUMBER: 8656520
+    Date of Submission: 2020-12-09
+-->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>BikesToGo | Feedback</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/feedback.css">
+
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+
+        <!-- JQuery CDN import for simple success message. -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+		crossorigin="anonymous">
+        </script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+            <img src="images/blueBike.png" alt="blue bike">
+            </a>
+            <h1>BikesToGo</h1>
+            <div>
+                <h4>Feedback</h4>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Images</a>
+                    <ul id="nestedNavImg">
+                        <li><a href="#">Mountain</a></li>
+                        <li><a href="#">Downhill</a></li>
+                        <li><a href="#">Road</a></li>
+                        <li><a href="#">Dirt / Street</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Media</a></li>
+                <li class="curr">
+                    <a href="#">Feedback</a>
+                    <!-- 3-Tier Navigation -->
+                    <ul id="nestedNav">
+                        <li><a href="#">Specialized</a></li>
+                        <li><a href="#">Divinci</a></li>
+                        <li><a href="#">Kona</a></li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    Norco<img id="threeTier" src="images/Arrow.jpg" width="20" height="20" alt="arrow">
+                                </figure>   
+                            </a>
+                            <ul hidden>
+                                <li><a href="#">Aurum C1</a></li>
+                                <li><a href="#">Aurum C2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <!-- Left section -->
+            <section id="leftSection">
+                <aside>
+                    <div class="shiftThumbnails">
+                        <figure>
+                        <a href="index.html"><img class="imgLink" src="images/Home.png" alt="Home"></a>
+                        <figcaption>Home</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="images.html"><img class="imgLink" src="images/ImagesLink.png" alt="Images"></a>
+                            <figcaption>Images</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="media.html"><img class="imgLink" src="images/Video.jpg" alt="Media"></a>
+                            <figcaption>Media</figcaption>
+                        </figure>
+                        <figure>
+                            <a href="feedback.html"><img class="imgLink" src="images/Feedback.jpg" alt="Feedback"></a>
+                            <figcaption>Feedback</figcaption>
+                        </figure>
+                    </div>
+                </aside>
+            </section>
+            <!-- End left section -->
+
+            <!-- Right section -->
+            <form id="feedbackForm" action="#" method="POST">
+            <section id="rightSection">
+                <aside>
+                    <h1>Was the website helpful?</h1>
+                    <br>
+                    <h1>Feedback</h1><br>
+                    <div id="listBox">
+                        <input type="checkbox" id="excellent" name="excellent" value="excellent">
+                        <label for="excellent">Excellent</label><br>
+                        <input type="checkbox" id="good" name="good" value="good">
+                        <label for="good">Good</label><br>
+                        <input type="checkbox" id="okay" name="okay" value="okay">
+                        <label for="okay">Okay</label><br>
+                        <input type="checkbox" id="bad" name="bad" value="bad">
+                        <label for="bad">Bad</label><br>
+                    </div><br>
+                    <h1>Will you visit the website again?</h1><br>
+                    <div id="listBox2">
+                        <input type="radio" id="yes" name="yesNo" value="yes">
+                        <label for="yes">Yes</label><br>
+                        <input type="radio" id="no" name="yesNo" value="no">
+                        <label for="no">No</label><br>
+                        <input type="radio" id="maybe" name="yesNo" value="maybe">
+                        <label for="maybe">Maybe</label>
+                    </div>
+                </aside>
+            </section>
+            <!-- End right section -->
+
+            <!-- Middle section -->
+            <section id="middleSection">
+                <aside>
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <div class="contactInfo">
+                            <!-- Name -->
+                            <label for="firstName">Name:</label>
+                            <input type="text" id="firstName" name="firstName" autofocus required><br>
+                            <!-- Address -->
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" required><br>
+                            <!-- Email address -->
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required><br><br>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Newsletter Subscription</legend>
+                        <br>
+                        <div class="NewsLetter">
+                            <label for="sub">Subscribe:</label>
+                            <select name="sub" id="sub">
+                                <option value="Daily">Daily</option>
+                                <option value="Weekly">Weekly</option>
+                                <option value="Monthly">Mothly</option>
+                                <option value="Yearly">Yearly</option>
+                            </select><br><br>
+
+                            <label for="pay">Payment:</label>
+                            <select name="pay" id="pay">
+                                <option value="Visa">Visa</option>
+                                <option value="Mastercard">Mastercard</option>
+                                <option value="American Express">American Express</option>
+                            </select><br><br>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Covered Topics</legend>
+                        <div class="topics">
+                            <list-box>
+                                <input type="checkbox" id="bmx" name="bmx" value="bmx">
+                                <label for="bmx">Bmx</label><br>
+                                <input type="checkbox" id="mountain" name="mountain" value="mountain">
+                                <label for="mountain">Mountain</label><br>
+                                <input type="checkbox" id="downhill" name="downhill" value="downhill">
+                                <label for="downhill">Downhill</label><br>
+                                <input type="checkbox" id="race" name="race" value="race">
+                                <label for="race">Race</label><br>
+                                <input type="checkbox" id="road" name="road" value="road">
+                                <label for="road">Road</label>
+                            </list-box>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Comments</legend>
+                        <textarea name="area" id="area" placeholder="Additional comments"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Submit Information</legend>
+                        <input type="reset">
+                        <input id="submit" type="submit" value="Submit">
+
+                        <!-- A simple success message with JQuery -->
+                        <div hidden class="success">Your submission was successful !</div>
+                        <script>
+                            $("#submit").on("click", function(){
+                                $(".success").css("display","block");
+                            });
+                        </script>
+                    </fieldset>
+                </aside>
+            </section>
+            </form>
+            <!-- End middle section -->
+
+            <!-- Main footer section -->
+            <section id="mainFooterSection">
+                <aside>
+                    <p>WE PROVIDE EXCELLENCE THROUGH OUR MAINTENANCE AND DISTRIBUTION OF BICYCLES.</p>
+                </aside>
+            </section>
+            <!-- End footer section -->
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020 - Braiden Gole</p>
+        </footer>
+    </body>
+</html>
