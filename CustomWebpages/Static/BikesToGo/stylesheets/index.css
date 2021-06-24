@@ -1,0 +1,85 @@
+nav ul li.curr { 
+    background-image: linear-gradient(45deg, #964B00, white 150%);
+}
+/* Main styling */
+/* Left Section */
+main #leftSection {
+    background-image: linear-gradient(180deg, #964B00, white 150%);
+    color: rgb(36, 36, 36);
+}
+main #leftSection aside .imgLink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(36, 36, 36);
+    box-shadow: 1px 1px 1px 1px black;
+    width: 100px;
+    height: 100px;
+}
+main #leftSection aside .imgLink:hover {
+    box-shadow: none;
+}
+main #leftSection aside .shiftThumbnails {
+    margin-top: 2px;
+}
+main #leftSection aside figure figcaption {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+main #leftSection h1 {
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 130%;
+    text-align: center;
+}
+/* End left section */
+/* Middle Section */
+main ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-type: none;
+}
+main #middleSection h1 {
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 250%;
+    padding-top: 25px;
+}
+main #middleSection p {
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    font-size: 110%;
+}
+main #middleSection #youTubeVideo {
+    margin-top: 30px;
+    border-radius: 10px;
+}
+/* End middle section */
+/* Right Section */
+main #rightSection h1 {
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 130%;
+    text-align: center;
+}
+main #rightSection ul li {
+    margin-bottom: 40px;
+}
+main #rightSection ul li:hover > figure img {
+    width: 80px;
+    height: 80px;
+}
+main #rightSection figure {
+    border: 2px solid rgb(36, 36, 36);
+    background-image: linear-gradient(-45deg, #964B00, white);
+}
+main #rightSection ul li figure figcaption {
+    color: black;
+    font-weight: bold;
+}
+/* End right section */
+/* End main */

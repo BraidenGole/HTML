@@ -1,0 +1,125 @@
+nav ul li.curr { 
+    background-image: linear-gradient(45deg, #964B00, white 150%);
+}
+
+/* Header styling */
+header h4 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 160%;
+    text-decoration: underline;
+    margin-left: 125px;
+    width: 15%;
+    margin-top: -12px;
+    text-indent: 150px;
+}
+/* End styling */
+
+/* Main styling */
+main #leftSection {
+    background-image: linear-gradient(180deg, #964B00, white 150%);
+    color: rgb(36, 36, 36);
+}
+main #leftSection aside .imgLink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(36, 36, 36);
+    box-shadow: 1px 1px 1px 1px black;
+    width: 100px;
+    height: 100px;
+}
+main #leftSection aside .imgLink:hover {
+    box-shadow: none;
+}
+main #leftSection aside .shiftThumbnails {
+    margin-top: 2px;
+}
+main #leftSection aside figure figcaption {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+main #rightSection {
+    background-image: linear-gradient(180deg, #964B00, white 150%);
+}
+main #rightSection #listBox {
+    margin-left: 10px;
+}
+main #rightSection #listBox2 {
+    margin-left: 10px;
+}
+main #middleSection fieldset {
+    background-image: linear-gradient(180deg, #964B00, white 150%);
+    border: 2px solid rgb(36, 36, 36);
+    margin-bottom: 10px;
+}
+main #middleSection fieldset legend {
+    color: rgb(36, 36, 36);
+    font-family: 'Nerko One', cursive;
+    font-size: 110%;
+    background-color: white;
+    border-radius: 3px;
+}
+main #middleSection .contactInfo {
+    width: 400px;
+}
+main #middleSection .contactInfo label {
+    vertical-align: sub;
+}
+main #middleSection .contactInfo input {
+    margin-left: -100px;
+    margin-bottom: 3px;;
+    float: right;
+    clear: both;
+}
+main #middleSection .NewsLetter label {
+    vertical-align: middle;
+}
+main #middleSection .NewsLetter select {
+    float: right;
+    width: 168px;
+    margin-right: 145px;
+    margin-left: -100px;
+}
+main #middleSection .topics {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-left: 120px;
+}
+main #middleSection .topics label {
+    margin-right: -60px;
+}
+main #middleSection .topics input {
+    float: right;
+}
+main #middleSection fieldset #area {
+    width: 30em;
+    height: 7em;
+    max-width: 100%;
+}
+main #middleSection .success {
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 110%;
+    color: rgb(36, 36, 36);
+    border: 2px solid rgb(36, 36, 36);
+    border-radius: 4px;
+    background-color: lightgreen;
+}
+main #middleSection input[type="reset"] {
+    width: 100px;
+}
+main #middleSection input[type="submit"] {
+    background-color: lightgreen;
+    border: 2px solid rgb(36, 36, 36);
+    border-radius: 4px;
+    width: 150px;
+}
+main #middleSection input[type="submit"]:hover {
+    background-color: white;
+}
+/* End main */

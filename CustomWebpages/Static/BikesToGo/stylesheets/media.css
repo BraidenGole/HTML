@@ -1,0 +1,85 @@
+nav ul li.curr { 
+    background-image: linear-gradient(45deg, #964B00, white 150%);
+}
+
+header h4 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 160%;
+    text-decoration: underline;
+    margin-left: 125px;
+    width: 15%;
+    margin-top: -12px;
+    text-indent: 150px;
+}
+
+/* Main */
+/* Left section */
+main #leftSection {
+    background-image: linear-gradient(180deg, #964B00, white 150%);
+    color: rgb(36, 36, 36);
+}
+main #leftSection aside .imgLink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(36, 36, 36);
+    box-shadow: 1px 1px 1px 1px black;
+    width: 100px;
+    height: 100px;
+}
+main #leftSection aside .imgLink:hover {
+    box-shadow: none;
+}
+main #leftSection aside .shiftThumbnails {
+    margin-top: 2px;
+}
+main #leftSection aside figure figcaption {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+main #leftSection h1 {
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 130%;
+    text-align: center;
+}
+/* End left section */
+
+/* Right section */
+main #rightSection h1 {
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 130%;
+    text-align: center;
+}
+main #rightSection ul {
+    list-style-type: none;
+    text-align: center;
+}
+main #rightSection ul li {
+    margin-bottom: 40px;
+}
+main #rightSection ul li:hover > figure img {
+    width: 80px;
+    height: 80px;
+}
+main #rightSection figure {
+    border: 2px solid rgb(36, 36, 36);
+    background-image: linear-gradient(-45deg, #964B00, white);
+}
+main #rightSection ul li figure figcaption {
+    color: black;
+    font-weight: bold;
+}
+/* End section */
+
+/* Middle section */
+main #middleSection .radius {
+    border-radius: 20px;
+}
+/* End middle section */
+/* End Main */

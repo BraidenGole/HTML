@@ -1,0 +1,200 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+}
+
+body {
+    background-image: url("../images/MountainBikeBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header styling */
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 1000px;
+    border-radius: 4px;
+    border: 6px solid #964B00;
+    height: 90px;
+    border-bottom: none;
+    background-image: linear-gradient(45deg, #964B00, white);
+}
+header h1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 340%;
+    margin-top: -30px;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+header img {
+    float:left;
+    margin-top: 3.5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    width: 80px;
+    height: 70px;
+    padding: 5px;
+}
+/* End header */
+
+/* Nav */
+nav ul {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 6px solid #964B00;
+    height: 55px;
+    width: 1000px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0em 2.5em 0em 2.5em;
+    height: 40px;
+    width: 120px;
+    border: 3px solid #964B00;
+    border-radius: 4px;
+    background-color: transparent;
+    margin: 5px 10px 5px 10px;
+}
+nav ul li:hover {
+    background-image: linear-gradient(45deg, #964B00, white)
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    margin-top: 5px;
+    left: 61.3%;
+    width: 200px;
+    height: 235px;
+    border-radius: 4px;
+    background-image: linear-gradient(45deg, #964B00, white);
+}
+nav ul ul li {
+    background-color: white;
+    width: 50%;
+}
+nav ul ul li ul {
+    position: absolute;
+    margin-top: -48px;
+    height: 120px;
+}
+nav ul ul ul li {
+    width: 100px;
+}
+nav ul ul li:hover > ul {
+    display: block;
+    float: none;
+    position: relative;
+    left: 143%;
+}
+nav ul li .curr {
+    background-image: linear-gradient(45deg, #964B00, white);
+}
+nav ul li:hover > #nestedNav {
+    display: block;
+    left: 62.5%;
+    margin-top: -3px;
+}
+nav ul #nestedNav li {
+    background-color: white;
+}
+nav ul #nestedNav li a figure #threeTier {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+/* Images drop down */
+nav ul #nestedNavImg {
+    background-color: white;
+    left: 38.5%;
+    margin-top: -3px;
+}
+nav ul li:hover > #nestedNavImg {
+    display: block;
+    background-color: white;
+}
+nav ul #nestedNavImg li {
+    background-color: white;
+}
+nav ul li a:link {
+    color: #964B00;
+    text-decoration: none;
+    line-height: 2.4;
+}
+/* End nav */
+
+/* Main styling */
+main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border: 6px solid #964B00;
+    height: 650px;
+    border-top: none;
+}
+/* Left Section */
+main #leftSection {
+    float: left;
+    width: 15%;
+    border: 2px solid #964B00;
+    color: white;
+    height: 570px;
+}
+/* End left section */
+/* Middle Section */
+main #middleSection {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    color: white;
+    text-align: center;
+}
+main h1 {
+    color: rgb(36, 36, 36);
+}
+/* End middle section */
+/* Right Section */
+main #rightSection {
+    float: right;
+    width: 15%;
+    border: 2px solid #964B00;
+    color: white;
+    height: 570px;
+    margin-bottom: 16px;
+}
+/* End right section */
+main #mainFooterSection {
+    clear: both;
+    width: 1000px;
+    height: 60px;
+    border: 2px solid #964B00;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(45deg, #964B00, white, #964B00);
+}
+main #mainFooterSection p {
+    margin-top: 17px;
+}
+/* End main */
+
+/* Footer styling */
+footer {
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 110%;
+}
+/* End footer */

@@ -1,0 +1,202 @@
+
+nav ul li.curr { 
+    background-image: linear-gradient(45deg, #964B00, white 150%);
+}
+
+header h4 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 160%;
+    text-decoration: underline;
+    margin-left: 125px;
+    width: 15%;
+    margin-top: -12px;
+    text-indent: 150px;
+}
+/* Left section */
+main #leftSection {
+    background-image: linear-gradient(180deg, #964B00, white 150%);
+}
+main #leftSection aside .imgLink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(36, 36, 36);
+    box-shadow: 1px 1px 1px 1px black;
+    width: 100px;
+    height: 100px;
+}
+main #leftSection aside .imgLink:hover {
+    box-shadow: none;
+}
+main #leftSection aside .shiftThumbnails {
+    margin-top: 2px;
+}
+main #leftSection aside figure figcaption {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+/* End left section */
+/* Middle section */
+main #middleSection #row {
+    display: block;
+    margin-left: -26px;
+    margin-right: 20px;
+    width: 600px;
+    border: 2px solid black;
+}
+main #middleSection #row2 {
+    display: block;
+    margin-left: -26px;
+    margin-right: 20px;
+    width: 600px;
+    border: 2px solid black;
+}
+main #middleSection #row3 {
+    display: block;
+    margin-left: -26px;
+    margin-right: 20px;
+    width: 600px;
+    border: 2px solid black;
+}
+main #middleSection figure {
+    display: inline-block;
+}
+main #middleSection figure figcaption {
+    color: black;
+    font-weight: bold;
+    margin-top: -20px;
+    background-image: linear-gradient(180deg, #964B00, white 150%);
+    border-radius: 4px;
+}
+/* General style for column (non-rollover) */
+main #middleSection #column {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 30px 30px 30px 30px;
+    border-radius: 4px;
+}
+/* Rollovers */
+main #middleSection #column1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    background-image: url("../images/stem1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px 30px 30px 30px;
+    border-radius: 4px;
+}
+main #middleSection #column1:hover {
+    background-image: url("../images/3PieceBars.jpg");
+}
+main #middleSection #column2 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url("../images/stem2.webp");
+    background-size: contain;
+    margin: 30px 30px 30px 30px;
+}
+main #middleSection #column2:hover {
+    background-image: url("../images/colorfulGrips.webp");
+}
+main #middleSection #column3 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url("../images/stem3.webp");
+    background-size: contain;
+    margin: 30px 30px 30px 30px;
+}
+main #middleSection #column3:hover {
+    background-image: url("../images/Bolts.jpg");
+}
+main #middleSection #column4 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url("../images/bmxFrame.webp");
+    background-size: contain;
+    margin: 30px 30px 30px 30px;
+}
+main #middleSection #column5 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url("../images/bmxFrame2.webp");
+    background-size: contain;
+    margin: 30px 30px 30px 30px;
+}
+main #middleSection #column6 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url("../images/bmxFrame3.webp");
+    background-size: contain;
+    margin: 30px 30px 30px 30px;
+}
+main #middleSection #column7 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url("../images/wheel1.jpg");
+    background-size: contain;
+    margin: 30px 30px 30px 30px;
+}
+main #middleSection #column8 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url("../images/wheel2.webp");
+    background-size: contain;
+    margin: 30px 30px 30px 30px;
+}
+main #middleSection #column9 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: url("../images/wheel3.jpg");
+    background-size: contain;
+    margin: 30px 30px 30px 30px;
+}
+/* End rollovers */
+/* End middle section */
+/* Right section */
+main #rightSection {
+    text-align: center;
+    background-image: linear-gradient(180deg, #964B00, white 150%);
+}
+main #rightSection h1 {
+    font-weight: bold;
+    font-family: 'Nerko One', cursive;
+    font-size: 130%;
+    text-align: center;
+}
+main #rightSection #rightPara {
+    text-indent: 10px;
+}
+/* End right section */
