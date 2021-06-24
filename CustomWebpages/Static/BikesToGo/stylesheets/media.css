@@ -80,6 +80,7 @@ main #rightSection ul li figure figcaption {
 /* Middle section */
 main #middleSection .radius {
     border-radius: 20px;
+    margin-top: 20px;
 }
 /* End middle section */
 /* End Main */
