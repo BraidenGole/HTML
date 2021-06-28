@@ -1,3 +1,1 @@
-Posting in a few hours.
-
-Current time: 8:28PM
+Not all fonts were found during the making of this replica did my best to make things look similar.
